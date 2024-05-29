@@ -26,7 +26,6 @@ const createMenuContent = () => {
                 { name: 'Hot and Sour Soup', description: 'Spicy and tangy soup with tofu and mushrooms', price: '$4.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Egg Drop Soup', description: 'Classic Chinese soup with wispy beaten eggs', price: '$3.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Wonton Soup', description: 'Clear broth with wonton dumplings and vegetables', price: '$5.99', image: 'https://via.placeholder.com/150' },
-                // Add more soups as needed
             ]
         },
         {
@@ -35,7 +34,6 @@ const createMenuContent = () => {
                 { name: 'Kung Pao Chicken', description: 'Spicy stir-fried chicken with peanuts', price: '$12.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Sweet and Sour Pork', description: 'Pork with a tangy sauce', price: '$11.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Mongolian Beef', description: 'Tender beef stir-fried with onions and scallions', price: '$14.99', image: 'https://via.placeholder.com/150' },
-                // Add more entrees as needed
             ]
         },
         {
@@ -44,7 +42,6 @@ const createMenuContent = () => {
                 { name: 'Fortune Cookies', description: 'Crunchy cookies with a hidden message', price: '$2.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Almond Cookies', description: 'Sweet almond-flavored cookies', price: '$3.99', image: 'https://via.placeholder.com/150' },
                 { name: 'Mango Pudding', description: 'Creamy mango-flavored pudding', price: '$4.99', image: 'https://via.placeholder.com/150' },
-                // Add more desserts as needed
             ]
         }
     ];
@@ -93,11 +90,7 @@ const createMenuContent = () => {
 };
 
 
-// Create the menu page element
 const menuPage = createMenuPage();
-
-// Append the menu content to the menu page element
 menuPage.appendChild(createMenuContent());
 
-// Export the menu page element
 export { menuPage };
