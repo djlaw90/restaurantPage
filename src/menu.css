@@ -1,0 +1,55 @@
+.menu-main {
+    padding: 20px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.menu-section h2 {
+    font-family: 'Grape Nuts', cursive;
+    color: red;
+    font-size: 3em;
+    margin-left: 10vw;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    border: 1px solid darkslategrey;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 2em;
+    color: red;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-price {
+    font-weight: bold;
+    color: #333;
+}

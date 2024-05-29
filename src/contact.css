@@ -1,0 +1,30 @@
+.contact {
+    padding: 20px;
+    background-color: peachpuff;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Grape Nuts', cursive;
+    color: red;
+    font-size: 3em;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-item {
+    border: 1px solid darkslategrey;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+}

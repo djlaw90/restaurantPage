@@ -68,9 +68,6 @@ const topNav = () => {
 
 const footer = () => {
   const footer = document.createElement('footer');
-  const para1 = document.createElement('p');
-  const para2 = document.createElement('p');
-  const para3 = document.createElement('p');
   const copyrightSection = document.createElement('div');
   const copyrightText = document.createElement('p');
 
@@ -80,14 +77,7 @@ const footer = () => {
 
   footer.classList.add('footer');
 
-  footer.appendChild(para1);
-  footer.appendChild(para2);
-  footer.appendChild(para3);
   footer.appendChild(copyrightSection);
-
-  para1.innerHTML = `<div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`;
-  para2.innerHTML = `<div>Icons made by <a href="https://www.flaticon.com/authors/iyahicon" title="IYAHICON">IYAHICON</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`;
-  para3.innerHTML = `<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`;
 
   return footer;
 };
@@ -112,16 +102,16 @@ homeButton.addEventListener("click", () => {
 menuButton.addEventListener("click", () => {
   addActiveClass(menuButton);
   content.innerText = '';
-  content.appendChild(menuPage());
+  content.appendChild(menuPage);
 });
 
 contactButton.addEventListener("click", () => {
   addActiveClass(contactButton);
   content.innerText = '';
-  content.appendChild(contactPage());
+  content.appendChild(contactPage);
 });
 
-function addActiveClass(btn) {
+const addActiveClass = (btn) => {
   navButtons.forEach(btn => btn.classList.remove('active-page'));
   btn.classList.add('active-page');
 }

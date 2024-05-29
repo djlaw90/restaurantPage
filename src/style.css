@@ -68,7 +68,6 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-    width: 50%;
 }
 
 /* General button styles */
@@ -83,6 +82,10 @@ button.link-button {
     padding: 8px 12px; 
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.link-button:last-child {
+    margin-right: 50px;
 }
 
 /* Hover effect */
@@ -137,7 +140,7 @@ main div {
 }
 
 .card img {
-    width: 150px;
+    width: 500px;
     padding: 20px;
 }
 
@@ -192,8 +195,8 @@ main div {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: peachpuff;
-   
+    background-color: red;
+    color: yellow;
 }
 
 .active-page {
