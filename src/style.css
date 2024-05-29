@@ -76,12 +76,12 @@ button.link-button {
     font-family: 'Grape Nuts', cursive;
     background: none;
     border: none;
-    color: black; /* Link color */
-    text-decoration: none; /* No underline */
-    cursor: pointer; /* Pointer cursor like a link */
-    font-size: 3em; /* Inherit font size */
-    padding: 8px 12px; /* Add some padding */
-    border-radius: 4px; /* Rounded corners */
+    color: black;
+    text-decoration: none; 
+    cursor: pointer; 
+    font-size: 3em; 
+    padding: 8px 12px; 
+    border-radius: 4px;
     transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
 }
 
@@ -193,10 +193,11 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: peachpuff;
+   
 }
 
 .active-page {
-    color: yellow;
+    color: yellow !important;
     font-weight: bold;
 }
 /* https://chansgardentogo.com/  Model after this site */
