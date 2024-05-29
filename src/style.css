@@ -71,16 +71,26 @@ ul {
     width: 50%;
 }
 
-nav ul li {
-    font-size: 2.5em;
+/* General button styles */
+button.link-button {
     font-family: 'Grape Nuts', cursive;
-    
+    background: none;
+    border: none;
+    color: black; /* Link color */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor like a link */
+    font-size: 3em; /* Inherit font size */
+    padding: 8px 12px; /* Add some padding */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
 }
 
-nav ul li a {
-    display: inline-block;
-    text-decoration: none;
-    color: darkslategray;
+/* Hover effect */
+button:hover,
+button:focus {
+    font-weight: bold;
+    background-color: peach; /* Light background on hover */
+    outline: none; /* Remove outline */
 }
 
 /* CSS */
@@ -178,4 +188,15 @@ main div {
     -o-background-size: cover;
     background-size: cover;
   }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: peachpuff;
+}
+
+.active-page {
+    color: yellow;
+    font-weight: bold;
+}
 /* https://chansgardentogo.com/  Model after this site */
